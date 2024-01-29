@@ -2,7 +2,7 @@ import Link from "next/link";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  // { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
 
