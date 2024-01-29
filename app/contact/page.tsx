@@ -1,27 +1,27 @@
 "use client";
 import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
-import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import { Navigation } from "../components/nav";
 
 const socials = [
 	{
 		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
+		href: "https://twitter.com/Chedly_",
 		label: "Twitter",
-		handle: "@chronark_",
+		handle: "@Chedly_",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:chedly.rebai123@gmail.com",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "chedly.rebai123@gmail.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/ChedlyRebai",
 		label: "Github",
-		handle: "chronark",
+		handle: "Chedly",
 	},
 ];
 
@@ -49,7 +49,7 @@ export default function Example() {
 									<span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
 										{s.handle}
 									</span>
-									<span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+									<span className="mt-4 flex break-words text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
 										{s.label}
 									</span>
 								</div>
